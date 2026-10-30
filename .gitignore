@@ -1,0 +1,4 @@
+.DS_Store
+*.bak
+settings.json.devrelay.bak
+settings_backup.json

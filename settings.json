@@ -1,0 +1,54 @@
+{
+  "cli_default_open_behavior": "new_window",
+  "agent": {
+    "tool_permissions": {
+      "tools": {
+        "terminal": {
+          "default": "allow"
+        }
+      }
+    },
+    "default_model": {
+      "provider": "openrouter",
+      "model": "openrouter/free",
+      "enable_thinking": true
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "agent_servers": {
+    "kimi": {
+      "type": "registry"
+    },
+    "qoder": {
+      "type": "registry"
+    }
+  },
+  "icon_theme": "Zed (Default)",
+  "terminal": {
+    "dock": "bottom"
+  },
+  "disable_ai": false,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "hard_tabs": true,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Zen Black"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "context_servers": {
+    "devrelay-gateway": {
+      "command": "/Users/macbook/.devrelay/bin/dev_mlh_mcp_server",
+      "args": [
+        "--stdio"
+      ]
+    }
+  }
+}
